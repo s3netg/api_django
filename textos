@@ -1,0 +1,38 @@
+ python manage.py startapp escola
+Olá!
+É muito bom receber você neste curso de Django Rest API.
+
+Espero que seja uma experiência de aprendizado incrível e que possamos vencer todos os desafios juntos. Neste curso, vamos aprofundar nosso conhecimento utilizando o Django, criando um API junto a biblioteca do Django Rest Framework.
+
+Este curso, apesar de ser o sexto curso de Django, não é uma continuação do projeto desenvolvido nas partes anteriores. Porém, é importante que você tenha uma base de conhecimento passado nos cursos anteriores.
+
+Divisão das aulas
+Aula	O que vamos aprender nesta aula?
+Instalando o Django Rest API	Vamos aprender o que é uma API, JSON e realizar uma requisição GET
+Modelos, Admin e Serializers	Vamos criar 2 modelos, vincular o Django Admin e serializar os modelos
+Viewset e requisições GET e POST	Vamos entender na prática o que é o viewset e realizar requisições GET e POST
+Atualizando e deletando recursos	Vamos atualizar e deletar os recursos e criar um novo modelo
+ListAPIView e Autenticação	Vamos utilizar o ListAPIView e adicionar autenticação na API
+Preparando ambiente
+Além disso, para conseguir acompanhar este curso, é recomendado que você tenha o Python3 instalado.
+
+Para otimizar o tempo do curso, criamos esta atividade descrevendo o passo a passo para criação de um projeto Django. Os passos são:
+
+Crie uma pasta para manter seu código e acessando essa pasta em um terminal, crie um ambiente virtual com o seguinte comando:
+python3 -m venv ./venv
+Ative seu ambiente virtual com o seguinte comando (MAC e Linux):
+source venv/bin/activate
+Em caso de Windows, utilize o comando:
+
+venv\Scripts\activate.bat
+Instale o Django nesse ambiente virtualizado:
+pip install django
+Crie um projeto chamado setup utilizando o Django admin, para manter toda configuração de nossa aplicação:
+django-admin startproject setup .
+Para finalizar a configuração do ambiente, na pasta setup, altere no arquivo settings.py o idioma e o horário que usaremos na aplicação, incluindo as seguintes linhas de código:
+LANGUAGE_CODE = 'pt-br'
+TIME_ZONE = 'America/Sao_Paulo'
+Na aula 3, vamos utilizar o Postman que é uma ferramenta que tem como objetivo testar serviços da API. Para instalar, clique neste link.
+Em caso de dúvida na instalação ou durante o curso, conte sempre com o fórum da Alura!
+
+
